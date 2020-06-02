@@ -418,7 +418,7 @@ export default {
     launchFilePicker() {
       this.$refs.file2.click();
     },
-    onFileChangeSign(file) {
+    onFileChange(file) {
       let imageFile = file[0];
       this.signURL = window.URL.createObjectURL(imageFile);
     },
