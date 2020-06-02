@@ -415,7 +415,7 @@ export default {
       let imageFile = file[0];
       this.imageURL = window.URL.createObjectURL(imageFile);
     },
-    launchFilePickerSign() {
+    launchFilePicker() {
       this.$refs.file2.click();
     },
     onFileChangeSign(file) {
